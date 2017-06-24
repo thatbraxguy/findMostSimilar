@@ -15,7 +15,7 @@ function dist(s, sLen, t, tLen) {
 }
 
 // findClosest :: String, [String] -> String
-function findMostSimilar(source, targets) {
+export function findMostSimilar(source, targets) {
   const sLen = source.length;
   
   // scoreStruct :: { score: Int, target: String }
