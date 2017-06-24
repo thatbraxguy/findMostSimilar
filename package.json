@@ -1,6 +1,6 @@
 {
   "name": "find-most-similar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use Levenshtein distance alg to find the most similar word in an array to the target word Edit",
   "main": "lib/index.js",
   "scripts": {
