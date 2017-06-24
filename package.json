@@ -1,0 +1,24 @@
+{
+  "name": "find-most-similar",
+  "version": "1.0.0",
+  "description": "Use Levenshtein distance alg to find the most similar word in an array to the target word Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatbraxguy/findMostSimilar.git"
+  },
+  "keywords": [
+    "string",
+    "match",
+    "levenshtein"
+  ],
+  "author": "Braxton Frederick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatbraxguy/findMostSimilar/issues"
+  },
+  "homepage": "https://github.com/thatbraxguy/findMostSimilar#readme"
+}
