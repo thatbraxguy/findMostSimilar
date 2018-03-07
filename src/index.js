@@ -21,7 +21,7 @@ export function findMostSimilar(source, targets) {
   // scoreStruct :: { score: Int, target: String }
   const { target } = targets.reduce((acc, target) => {
     const score = dist(source, sLen, target, target.length);
-    return score > acc.score ? acc : ({ score, target});
+    return score > acc.score ? acc : ({ score, target });
   });
 
   return target;
